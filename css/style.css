@@ -1,0 +1,71 @@
+body{
+   background-color: rgb(173, 96, 27);
+}
+
+img {max-width: 150px;}
+
+.container1 { 
+    margin-bottom: 10px;
+    border: 2px solid whitesmoke;
+    height: 1000 px; 
+    background: rgb(194, 107, 31);    
+    display: flex;
+    justify-content: flex-end; /*main axis*/
+    align-items: flex-end;  /*cross axis*/
+ }
+ .section1 {
+    background: rgb(194, 107, 31); 
+    border: 1px solid whitesmoke;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+ }
+
+ #introduction { background-color: rgb(189, 119, 57); 
+}
+ #information { background-color: yellow; }
+ #summary { background-color: white; }
+
+ .container2 { 
+    margin-top: 10px;
+    border: 2px solid whitesmoke;
+    height: 1000 px; 
+    background: rgb(194, 107, 31);  
+    display: flex;
+    justify-content: space-evenly; /*main axis*/
+    align-items: flex-end;  /*cross axis*/
+ }
+ .section2 {
+    border: .1px solid;
+    width: 99px;
+    height: 99px;
+    text-align: center;
+    font-size: 30px;
+ }
+
+
+ #EmploymentHistory { background-color: pink; }
+ #EducationHistory { background-color: purple; }
+ 
+ .container3 { 
+    /* height: 500 px;  */
+    margin-top: 10px;
+    border: 2px solid whitesmoke;
+    height: 1000 px; 
+    background: rgb(194, 107, 31);     
+    display: flex;
+    justify-content: space-evenly; /*main axis*/
+    align-items: flex-end;  /*cross axis*/
+ }
+ .section3 {
+    border: .1px solid;
+    width: 99px;
+    height: 99px;
+    text-align: center;
+    font-size: 30px;
+ }
+ #ProgrammingSkills { background-color: red; }
+ #GraphicSkills { background-color: orange; }
+ #LanguageSkills { background-color:beige; }
+ 
